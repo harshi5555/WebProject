@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+.body {
+	font: normal bold 14px/30px Georgia, serif;
+	background-color: hsla(159,74%,45%,1.00);
+}
+.header {
+	text-align: center;
+	margin-top: 5%;
+	color: hsla(144,87%,26%,0.85);
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+}
+.header span {
+	color: hsla(184,88%,20%,0.27);
+}
+
+
+.form-group {
+	margin: 0;
+}
+.form-group input[type=text] {
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px;
+}
+.form-group input[type=password] {
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px;
+}
+form-group button[type=submit] {
+	background-color: rgba(7,95,38,1.00);
+}
+.log {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 0;
+	padding-top: 10%;
+}
+.form-group {
+	background: transparent;
+}

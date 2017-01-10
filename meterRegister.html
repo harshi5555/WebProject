@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Meter Register</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/MeterReg.css">
+</head>
+
+<body class="meterbody">
+<nav class="my-navbar navbar navbar-inverse col-lg-12">
+  <div class="container-fluid">
+    <div class="navbar-header"> <a class="navbar-brand" href="#"><span class="title">Greeny Home </span> </a></div>
+  </div>
+</nav>
+<div class="container">
+  <div class ="row">
+    <div class="  jumbotron "> <span class="close" style="border:2px solid white;">×</span>
+      <h4 class="lead " >Please enter your meter number</h4>
+      <form method="post" action="meterRegister.php">
+        <div class="div1">
+          <div class="row inputsof1 input ">
+            <input type="number"  class="form-control " placeholder=" " name="meterNum1"  size="1" maxlength="1"  required>
+            <input type="number" class="form-control" placeholder=" " name="meterNum2" size="1" maxlength="1" required>
+            <input type="number" class="form-control" placeholder=" " name="meterNum3" size="1" maxlength="1" required>
+            <input type="number" class="form-control" placeholder=" " name="meterNum4" size="1" maxlength="1" required>
+            <input type="number" class="form-control" placeholder=" " name="meterNum5" size="1" maxlength="1" required>
+            
+          </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-success"  >Register</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="  jumbotron card">
+  <div id="portfolio" class="container-fluid text-center bg-grey"> <br>
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail"> <img src="images/rcna_registerformyaccount.jpg"  >
+          <p><strong>Easy access</strong></p>
+          <p>Eassy to check your account balance,track your usage by hourly and manage in one handy spot in everywhere in country.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail savHome"> <img src="images/helping-you-save-at-home.jpg" >
+          <p><strong>Visibility</strong></p>
+          <p>It's helps you to form a clear view of your home energy usage. When you have clear visibility of consumption and cost across your entire energy estate, you’re able to take control of the energy you use.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail TOPBanner"> <img 
+        src="images/For-Home_Electricity_TOPBanner.jpg">
+          <p><strong>Clear Plan</strong></p>
+          <p>Determining how much electricity your appliances and home electronics use can help you understand how much money you are spending to use them. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <marquee>
+  <h4>Keep the future bright, Turn of the light!!!!! </h4>
+  </marquee>
+</div>
+<script>
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    window.location.href="signup.html";;
+}
+</script> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

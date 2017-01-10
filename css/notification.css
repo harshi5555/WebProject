@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.notifbody {
+	font: normal bold 14px/30px Georgia, serif;
+	background-color: hsla(159,74%,45%,1.00);
+	height: 100%; width: 100%; padding: 0; margin:0; background-color:
+hsla(159,74%,45%,1.00);}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+.container{padding:2%;
+}
+.alert.success {
+    background-color: #57E2BC;
+}
+
+.alert.info {
+    background-color: #8ECAF8;
+}
+.alert {
+    padding: 20px;
+    background-color: #EF7870;}
+	
+.alert.warning {
+    background-color: #F7BC66;
+}	

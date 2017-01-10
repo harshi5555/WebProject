@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.signupbody{ 
+	
+	font: normal bold 14px/30px Georgia, serif;
+	
+	background-color: hsla(159,74%,45%,1.00);
+	}
+	
+	
+	.title{ border: 2px solid #838383; 
+border-radius: 5px; padding:5px;
+}
+ .my-navbar{ border-radius:0;
+  border:0;}
+  .my-navbar .navbar-brand{ color:rgba(8,196,124,1.00)}
+
+.jumbotron{background-color:black; color:rgba(133,139,144,1.00);margin:15% 15% 13% 15%; width:500px;}

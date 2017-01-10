@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Signup</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/signup.css">
+<title>sing up</title>
+<script>
+function registerForm() {
+    var x = document.forms["registerForm"]["InputPassword"].value;
+	var y = document.forms["registerForm"]["InputPasswordConfirm"].value;
+    if (x == y) {
+        return true;
+    } else {
+        alert("Password mismatch !!!");
+        return false;
+    }
+}
+</script>
+</head>
+
+<body class="signupbody">
+<nav class="my-navbar navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header"> <a class="navbar-brand" href="#"><span class="title">Greeny Home </span> </a></div>
+  </div>
+</nav>
+<div class="container">
+  <div class ="row">
+    <div class="jumbotron" style="width:75%; margin:0 auto;">
+      <form data-toggle="validator" role="form"  method= "post" action="signup.php"  name="registerForm" onsubmit="return registerForm()">
+        <div class="modal-header" >
+          <button type="button" class="close" data-dismiss="modal" style="color:white; border:2px solid white;">&times;</button>
+          <h4 class="text-center" >Sign Up</h4>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="inputName" class="control-label"> First Name</label>
+          <input type="text" class="form-control" id="inputFirstName" name="InputFirstName" placeholder="First Name" required>
+          <span class="glyphicon form-control-feedback" aria-hidden="true"></span> </div>
+        <br>
+        <div class="form-group">
+          <label for="inputName" class="control-label"> Last Name</label>
+          <input type="text" class="form-control" id="inputLastName" name="InputLastName" placeholder="Last Name" required>
+          <span class="glyphicon form-control-feedback" aria-hidden="true"></span> </div>
+        <br>
+        <div class="form-group">
+          <label for="InputAddress1">Address</label>
+          <input type="text" class="form-control " name="InputAddress" placeholder="Address"  required>
+        </div>
+        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+        <div class="form-group"><br>
+          <label for="inputEmail" class="control-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" name="InputEmail"  placeholder="Email" data-error="Bruh, that email address is invalid" required>
+          <div class="help-block with-errors"></div>
+        </div>
+        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+        <div class="form-group">
+          <label for="inputPassword" class="control-label">Password</label>
+          <div class="form-inline row">
+            <div class="form-group col-sm-6"> 
+              <input type="password" data-minlength="6" class="form-control" id="inputPassword"  name="InputPassword" placeholder="Password" required>
+              <div class="help-block">Minimum of 6 characters</div>
+            </div>
+            <div class="form-group col-sm-6">
+              <input type="password" class="form-control" id="inputPasswordConfirm"  name="InputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="terms" data-error="Before you singin yourself" required>
+              Please confirm the form</label>
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script>
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+    window.location.href="index.html";;
+}
+</script> 
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</body>
+</html>

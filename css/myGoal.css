@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+.goalbody {
+	font: normal bold 14px/30px Georgia, serif;
+	background-color: hsla(159,74%,45%,1.00);
+	height: 100%; width: 100%; padding: 0; margin:0; background-color:
+hsla(159,74%,45%,1.00)}
+
+
+
+.checkbox-inline{ word-spacing: 30px;
+} 
+
+.checkbox-inline input[type="checkbox"] {
+  transform:scale(1, 1); word-spacing: 30px;
+  
+}
+.form-group input[type=text]{
+	
+	
+	border-radius:2px;
+	font-size:16px;
+	font-weight:400;
+	padding:5px;
+	
+	}
+	.container{padding:2%;
+}
+.jumbotron{background-color:black; color:rgba(133,139,144,1.00);
+   }
+.form-group{
+	color:rgba(0,0,0,1.00);}
+	
+	
+	.well well-sm{
+	
+	padding:2%;
+	text-align:left;
+	}
+	
+	#firstjumbotron{word-spacing: 40px;}
+	
+	.btn {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+	
+	
+	.radio-inline, .checkbox-inline {
+   
+   padding-left: 10px;
+   
+}

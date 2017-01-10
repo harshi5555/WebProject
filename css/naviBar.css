@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.title {
+	border: 2px solid #838383;
+	border-radius: 5px;
+	padding: 5px;
+}
+.my-navbar {
+	border-radius: 0;
+	border: 0;
+}
+.my-navbar .navbar-brand {
+	color: rgba(8,196,124,1.00);
+	margin-left: 5px;
+}
+.my-navbar .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: rgba(8,196,124,1.00);
+	outline: 0;
+}
+.my-navbar .dropdown-menu {
+	color: #fff;
+	background-color: black;
+	margin: 0;
+}
+.dropdown-menu > li > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.42857143;
+	color: rgba(8,196,124,1.00);
+	white-space: nowrap;
+}
+

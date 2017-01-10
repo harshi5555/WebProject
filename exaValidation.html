@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Signup</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/signup.css">
+<link rel ="stylesheet" href="css/naviBar.css">
+
+
+
+<title>sing up</title>
+</head>
+
+<body class="meterbody">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header"> <a class="navbar-brand" href="#">Greeny Home</a></div>
+  </div>
+</nav>
+
+  <div class="container">
+    <div class ="row">
+      
+      <div class="jumbotron" style="background-color:black; color:rgba(133,139,144,1.00);">
+  
+      
+<form data-toggle="validator" role="form"  method= "post" action="signup.php" onsubmit="return validateForm()" name="registerForm">
+<div class="modal-header" >
+       <button type="button" class="close" data-dismiss="modal" style="color:white;">&times;</button> 
+        <h4 class="text-center" >SignUp</h4>
+      </div> <br>   
+  <div class="form-group">
+    <label for="inputName" class="control-label"> First Name</label>
+    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" required>
+  </div><br>
+  <div class="form-group">
+    <label for="inputName" class="control-label"> Last Name</label>
+    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name" required>
+  </div><br>
+  <div class="form-group">
+          <label for="InputAddress1">Address</label>
+          <input type="text" class="form-control " name="InputAddress" placeholder="Address"  required>
+        </div>
+  <div class="form-group"><br>
+    <label for="inputEmail" class="control-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+    <div class="help-block with-errors"></div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword" class="control-label">Password</label>
+    <div class="form-inline row">
+      <div class="form-group col-sm-6">
+        <input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
+        <div class="help-block">Minimum of 6 characters</div>
+      </div>
+      <div class="form-group col-sm-6">
+        <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
+        <div class="help-block with-errors"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" id="terms" data-error="Before you wreck yourself" required>
+        Please confirm the form
+      </label>
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
+<!-- <script src="js/jquery-latest.min.js" type="text/javascript"></script> --> 
+<script src="../home/js/jquery-1.11.3.min.js"></script> 
+<!-- Latest compiled and minified JavaScript --> 
+<script src="../home/js/bootstrap.min.js"></script>
+</div>
+</div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mybody{  background-color:
+hsla(159,74%,45%,1.00)}
+#my-navbar{margin:20;}
+
+.mybody h3{padding:3%;}
+.navbar-nav{
+	float:none ;
+}
+
+
+.carousel2{ display: none; }	
+@media (min-width: 767px) {
+	
+
+	.navbar-nav {
+	float: right;
+		}
+ }
+ 
+ #myChart{
+	 width:80%;
+	 height:50%;
+	 padding:10%;
+ }
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: hsla(159,74%,45%,1.00);
+    margin-top:20px;
+}
+.glyphicon glyphicon-chevron-down {
+  font-size: 2em;}
+  .table tbody tr td{text-align:justify;}
+  

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mybody{ font: normal bold 14px/30px Georgia, serif; background-color:
+hsla(159,74%,45%,1.00)}
+#my-navbar{margin:20;}
+
+.mybody h3{padding:3%;}
+.navbar-nav{
+	float:none ;
+}
+
+
+.carousel2{ display: none; }	
+@media (min-width: 767px) {
+	
+
+	.navbar-nav {
+	float: right;
+		}
+ }
+ 
+ #myChart{
+	 width:80%;
+	 height:50%;
+	 padding:10%;
+ }
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: hsla(159,74%,45%,1.00);
+    margin-top:20px;
+}
+.glyphicon glyphicon-chevron-down {
+  font-size: 2em;}
+  .table tbody tr td{text-align:justify;}
+  
+  
+  
+  .my-navbar{ border-radius:0;
+  border:0;}
+  .my-navbar .navbar-brand{ color:rgba(8,196,124,1.00)}
+  .my-navbar .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color:rgba(8,196,124,1.00) ;
+    outline: 0;
+}
+
+}
+  
+ @media (min-width: 768px)
+.nav > li:first-child a {
+    padding-left: 0 20px;
+} 
